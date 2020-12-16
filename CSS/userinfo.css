@@ -1,0 +1,108 @@
+*{
+  list-style: none;
+  text-decoration: none;
+}
+.title{
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: RGB(248,248,248);
+  /* background-color: aqua; */
+}
+[v-cloak] {
+    display: none
+  }
+  
+  table {
+    border: 1px solid #ccc;
+    padding: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  table td,
+  table th {
+    text-align: center;
+    height: 60px;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 16px;
+    padding: 3px 3px 3px 8px;
+  }
+  
+  table th:first-child {
+    width: 100px;
+  }
+  table th:nth-child(2) {
+    width: 140px;
+  }
+  div#app.container
+  {
+    width: 1000px;
+    height: 840px;
+    overflow: scroll;
+    margin: 0 auto;
+    margin-left: 24%;
+    font-size: 13px;
+    font-family: 'Microsoft YaHei'
+  }
+  
+  .container .search {
+    font-size:20px;
+    padding: 4px;
+    margin: 15px 0;
+  }
+  
+  .container .add {
+    font-size: 15px;
+    padding: 6px 15px 5px;
+    margin-left: 6px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .overlay td:first-child {
+    width: 122px;
+  }
+  .overlay td:nth-child(2) input{
+    width: 420px;
+    height: 44px;
+  }
+  .overlay .con {
+    position: absolute;
+    width: 600px;
+    min-height: 300px;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    padding: 20px;
+  }
+  .operation:hover{
+    text-decoration: underline;
+    color: red;
+  }
+  footer{
+    float: left;
+    width: 85%;
+  }
+  .footer{
+    float: left;
+    height: 27px;
+    width: 300px;
+    margin: 3px auto 1px;
+    margin-left: 50%;
+  }
